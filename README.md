@@ -10,7 +10,7 @@
 
 My latest version of my personal website and portfolio using Gatsby and Netlify.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+_Want to follow the tutorial I used to get started? [get started - netlify](https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/#prepping-for-build)._
 
 ## 🚀 Want to use my site as a template?
 
@@ -39,9 +39,9 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-- **For starters, check this out: [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+- **For starters, check this out: [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** 
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).**
 
 ## 💫 Deploy to Netlify
 
