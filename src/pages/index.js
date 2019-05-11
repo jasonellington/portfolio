@@ -4,19 +4,16 @@ import { Link, graphql } from "gatsby"
 
 import Banner from "../components/banner"
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Logo from "../components/logo"
 import SEO from "../components/seo"
 
 const IndexPage = ({data}) => {
   console.log(data.contentfulHomePage.content.content);
   return(
     <Layout>
-      <Banner />
       <SEO keywords={[`jason`, `ellington`, `web`, `developer`, `jamstack`, `gatsby`]} />
+      <Banner />
       <ReactMarkdown source={data.contentfulHomePage.content.content} />
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
     </Layout>
   )
 }
