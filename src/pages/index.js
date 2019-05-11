@@ -12,7 +12,7 @@ const IndexPage = ({data}) => {
   return(
     <Layout>
       <Banner />
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO keywords={[`jason`, `ellington`, `web`, `developer`, `jamstack`, `gatsby`]} />
       <ReactMarkdown source={data.contentfulHomePage.content.content} />
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
