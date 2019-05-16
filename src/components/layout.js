@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
+import Container from "./container"
 import Navigation from "./navigation"
 import "./layout.css"
 
@@ -17,12 +18,10 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
-        <Navigation />
-        <div className="wrapper">
-          <main>{children}</main>
-        </div>
-      </>
+        <Container>
+          <Navigation />
+          {children}
+        </Container>
     )}
   />
 )

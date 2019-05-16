@@ -1,0 +1,39 @@
+.hero {
+  color: #fff;
+  text-align: center;
+}
+
+.heroDetails {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 10%;
+  left: 5%;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.heroDetails h3 {
+  border-bottom: solid white 2px;
+}
+
+@media(min-width: 600px) {
+  .heroDetails {
+    font-size: 16px;
+  }
+}
+
+@media(min-width: 1000px) {
+  .heroDetails {
+    font-size: 28px;
+  }
+}
+
+.heroHeadline {
+  margin: 0;
+}
+
+.heroTitle {
+  margin: 0;
+  font-size: 1.125em;
+  font-weight: bold;
+}

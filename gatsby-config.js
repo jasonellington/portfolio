@@ -1,5 +1,5 @@
-
 const dotenv = require("dotenv");
+const path = require(`path`);
 
 if (process.env.ENVIRONMENT !== "production") {
   dotenv.config();
@@ -19,7 +19,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: path.join(__dirname, `src`, `images`),
       },
     },
     `gatsby-transformer-sharp`,
