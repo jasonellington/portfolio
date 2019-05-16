@@ -11,7 +11,6 @@ import Hero from '../components/hero'
 class IndexPage extends React.Component {
   render() {
     const siteContent = get(this, 'props.data.contentfulHomePage.content.content')
-    const [me] = get(this, 'props.data.allContentfulPerson.edges')
 
     return (
       <Layout>
